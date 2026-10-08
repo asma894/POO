@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Zoo {
     Animal[] animals = new Animal[25]; // max 25 animaux
     String name;
@@ -65,5 +66,27 @@ public class Zoo {
         } else {
             return zoo2;
         }
+=======
+public class Zoo
+{
+    Animal[] animals = new Animal[25];
+    String name ;
+    String city;
+    int nbrCages;
+    public Zoo (String name, String city, int nbrCages){
+        this.name=name;
+        this.city=city;
+        this.nbrCages=nbrCages;
+
+    }
+    public void displayZoo(){
+        System.out.println("Zoo name: " + name);
+        System.out.println("City: " + city);
+        System.out.println("Number of cages: " + nbrCages);
+    }
+    @Override
+    public String toString (){
+        return "zoo name :" +name+ "city:" +city + "nuber of cages :"+ nbrCages ;
+>>>>>>> dad8ed7103f273dae244bad33d03b2f432dc50b3
     }
 }

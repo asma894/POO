@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Prosits-COOPJ-2526-Prosit-2.iml" filepath="$PROJECT_DIR$/Prosits-COOPJ-2526-Prosit-2.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/tp0.iml" filepath="$PROJECT_DIR$/tp0.iml" />
+>>>>>>> dad8ed7103f273dae244bad33d03b2f432dc50b3
     </modules>
   </component>
 </project>
