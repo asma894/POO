@@ -75,7 +75,12 @@ public class ZooManagement {
         System.out.println("tn.esprit.gestionzoo.entities.Zoo avec le plus d'animaux : " + plusGrand);
 
         //instruction21:
-        Aquatic aq = new Aquatic("a", "aquatic", 1, true, "ocean");
+        Aquatic aq = new Aquatic("a", "aquatic", 1, true, "ocean") {
+            @Override
+            public void swim() {
+
+            }
+        };
         Terrestrial ter = new Terrestrial("terr", "terrestrial", 22, true, 4);
         Dolphin dolphin = new Dolphin("b", "dolphin", 13, true, "bassin", 40);
         Penguin penguin = new Penguin("c", "penguin", 2, false, "snow", 50);
@@ -89,5 +94,16 @@ public class ZooManagement {
         aq.swim();
         dolphin.swim();
         penguin.swim();
+        //25:
+        myZoo.addAquaticAnimal(dolphin);
+        myZoo.addAquaticAnimal(penguin);
+
+        //26
+
+
+
+
+
+
     }
 }
